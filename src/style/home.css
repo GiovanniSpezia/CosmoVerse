@@ -1,0 +1,293 @@
+.main-bg {
+    width: 100%;
+    height:91.3vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/main-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-bg .logo {
+    width: 300px;
+    height: 300px;
+    margin: auto 0px auto auto;
+}
+
+.txt-box {
+    margin: auto auto auto 120px;
+}
+
+.txt-box .title {
+    font-size: 80px;
+    color: rgb(167, 231, 159);
+}
+
+.txt-box .ip {
+    font-size: 40px;
+}
+
+.about-section {
+    width: 100%;
+    height: 100%;
+    background-color: #111216;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divisor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 100px;
+}
+
+.divisor .line {
+    background-color: rgb(121, 222, 110);
+    width: 35%;
+    height: 2px;
+    border: none;
+}
+
+.divisor .title {
+    font-size: 60px;
+    color: rgb(121, 222, 110);
+    margin: 0 50px;
+}
+
+.about-section .section img {
+    width: 630px;
+    border: 6px rgb(121, 222, 110) solid;
+    border-radius: 15px;
+}
+
+.section .text {
+    font-size: 30px;
+    color: white;
+}
+
+.about-section .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 100px;
+}
+
+.about-section .section p {
+    width: 100%;
+}
+
+.a-left {
+    text-align: start;
+    margin: auto 10px auto 0;
+}
+
+.a-right {
+    text-align: end;
+    margin: auto 0 auto 10px;
+}
+
+.staff-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #111216;
+}
+
+.staff-section .section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.staff-section .section .staff-card {
+    width: 290px;
+    height: 380px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.staff-section .section .staff-card .head {
+    width: 190px;
+    margin: auto auto 10px auto;
+}
+
+.staff-section .section .staff-card .container {
+    margin: 10px auto auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.staff-section .section .staff-card .container .name {
+    font-size: 40px;
+}
+
+.staff-section .section .staff-card .container .role {
+    color: white;
+    font-size: 25px;
+}
+
+.staff-card.owner {
+    border: 6px #c51414 solid;
+}
+
+.owner {
+    color: #c51414;
+}
+
+.staff-role {
+    font-size: 50px;
+}
+
+.staff-card.dev {
+    border: 6px #8219DE solid;
+}
+
+.dev {
+    color: #8219DE;
+}
+
+.staff-card.admin {
+    border: 6px #eb4444 solid;
+}
+
+.admin {
+    color: #eb4444;
+}
+
+.staff-card.srmod {
+    border: 6px #1e670a solid;
+}
+
+.srmod {
+    color: #1e670a;
+}
+
+.staff-card.mod {
+    border: 6px #33DBD0 solid;
+}
+
+.mod {
+    color: #33DBD0;
+}
+
+.staff-card.helper {
+    border: 6px #33DB44 solid;
+}
+
+.helper {
+    color: #33DB44;
+}
+
+.staff-card.builder {
+    border: 6px #DBD533 solid;
+}
+
+.builder {
+    color: #DBD533;
+}
+
+@media (max-width: 1440px) {
+    .main-bg {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-bg .logo {
+        margin: auto auto 0 auto;
+    }
+
+    .main-bg .txt-box {
+        text-align: center;
+        margin: 0 auto auto auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-bg .logo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .main-bg .txt-box .title {
+        font-size: 50px;
+    }
+
+    .main-bg .txt-box .ip {
+        font-size: 30px;
+    }
+
+    .about-section .section {
+        flex-direction: column;
+    }
+
+    .about-section .section .a-left, .about-section .section .a-right {
+        margin: 0;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about-section .section img {
+        width: 400px;
+    }
+
+    .about-section .section p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .about-section .section img {
+        width: 300px;
+    }
+
+    .about-section .section p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-bg .logo {
+        width: 260px;
+        height: 260px;
+    }
+    .main-bg .txt-box .title {
+        font-size: 40px;
+    }
+
+    .main-bg .txt-box .ip {
+        font-size: 20px;
+    }
+
+    .divisor .title {
+        font-size: 40px;
+    }
+
+    .about-section .section img {
+        width: 250px;
+    }
+}
+
+#loader {
+    width: 100%;
+    height: 100vh;
+    background-color: #111216;
+}
