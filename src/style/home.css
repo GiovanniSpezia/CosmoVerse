@@ -22,7 +22,7 @@
 
 .txt-box .title {
     font-size: 80px;
-    color: rgb(167, 231, 159);
+    color: rgb(239, 147, 0);
 }
 
 .txt-box .ip {
@@ -48,7 +48,7 @@
 }
 
 .divisor .line {
-    background-color: rgb(121, 222, 110);
+    background-color: rgb(239, 147, 0);
     width: 35%;
     height: 2px;
     border: none;
@@ -56,13 +56,13 @@
 
 .divisor .title {
     font-size: 60px;
-    color: rgb(121, 222, 110);
+    color: rgb(239, 147, 0);
     margin: 0 50px;
 }
 
 .about-section .section img {
     width: 630px;
-    border: 6px rgb(121, 222, 110) solid;
+    border: 6px rgb(239, 147, 0) solid;
     border-radius: 15px;
 }
 
@@ -143,11 +143,19 @@
 }
 
 .staff-card.owner {
-    border: 6px #c51414 solid;
+    border: 6px #ebd47a solid;
 }
 
 .owner {
-    color: #c51414;
+    color: #ebd47a;
+}
+
+.staff-card.manager {
+    border: 6px #b916ef solid;
+}
+
+.manager {
+    color: #b916ef;
 }
 
 .staff-role {
@@ -155,51 +163,51 @@
 }
 
 .staff-card.dev {
-    border: 6px #8219DE solid;
+    border: 6px #0eb2ee solid;
 }
 
 .dev {
-    color: #8219DE;
+    color: #0eb2ee;
+}
+
+.staff-card.sradmin {
+    border: 6px #404cf4 solid;
+}
+
+.sradmin {
+    color: #404cf4;
 }
 
 .staff-card.admin {
-    border: 6px #eb4444 solid;
+    border: 6px #757eff solid;
 }
 
 .admin {
-    color: #eb4444;
+    color: #757eff;
 }
 
 .staff-card.srmod {
-    border: 6px #1e670a solid;
+    border: 6px #1e74e4 solid;
 }
 
 .srmod {
-    color: #1e670a;
+    color: #1e74e4;
 }
 
 .staff-card.mod {
-    border: 6px #33DBD0 solid;
+    border: 6px #8941a9 solid;
 }
 
 .mod {
-    color: #33DBD0;
+    color: #8941a9;
 }
 
 .staff-card.helper {
-    border: 6px #33DB44 solid;
+    border: 6px #b06ccd solid;
 }
 
 .helper {
-    color: #33DB44;
-}
-
-.staff-card.builder {
-    border: 6px #DBD533 solid;
-}
-
-.builder {
-    color: #DBD533;
+    color: #b06ccd;
 }
 
 @media (max-width: 1440px) {

@@ -7,7 +7,7 @@
 }
 
 ::selection {
-    background-color: rgba(121, 222, 110, 0.427);
+    background-color: rgba(239, 147, 0, 0.423);
     color: white;
 }
 
@@ -23,17 +23,17 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(#111216, rgb(121, 222, 110), #111216);
+  background: linear-gradient(#111216, rgb(239, 147, 0), #111216);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(#111216, rgb(121, 222, 110), #111216);
+    background: linear-gradient(#111216, rgb(239, 147, 0), #111216);
 }
 
 /* general */
-.green {
-    color: rgb(121, 222, 110);
+.yellow {
+    color: rgb(239, 147, 0);
 }
 
 #progress-bar {
@@ -49,7 +49,7 @@
 #progress {
     width: 0;
     height: 3px;
-    background-color: rgb(121, 222, 110);
+    background-color: rgb(239, 147, 0);
     max-width: 100%;
 }
 
@@ -68,7 +68,7 @@
 }
 
 #online {
-    color: rgb(24, 206, 24);
+    color: rgb(239, 147, 0);
 }
 
 .topbar .container {
@@ -265,7 +265,7 @@ footer .top .left .txt-column .right{
 footer .line {
     width: 90%;
     height: 2px;
-    background-color: rgb(121, 222, 110);
+    background-color: rgb(239, 147, 0);
     border: none;
     margin: 20px 100px;
 }
@@ -382,7 +382,7 @@ provicali
     background-color: #111216;
     z-index: 100000000000000;
     border-radius: 15px;
-    border: rgb(121, 222, 110) 4px solid;
+    border: rgb(239, 147, 0) 4px solid;
     display: none;
     align-items: center;
     justify-content: center;
@@ -390,7 +390,7 @@ provicali
 
 .btc {
     border-radius: 4px;
-    background-color: green;
+    background-color: rgb(239, 147, 0);
     border: none;
     color: #FFFFFF;
     text-align: center;
